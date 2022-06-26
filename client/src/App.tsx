@@ -3,13 +3,13 @@ import React from 'react';
 import Game from 'pages/Game/Game';
 
 import "App.scss"
-import Navbar from 'pages/Navbar/Navbar';
+import Header from 'pages/Navbar/Header';
 
 function App() {
   return (
     <div id="app">
-      <Navbar />
-      <hr />
+      <Header />
+      {/* <hr /> */}
       
       <Game />
     </div>

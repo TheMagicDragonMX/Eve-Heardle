@@ -1,0 +1,22 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+
+  border: 0;
+  border-color: rgb(141, 141, 141);
+  border-style: solid;
+  border-bottom-width: 1px;
+
+  button {
+    color: black;
+    width: 5rem;
+  }
+
+  h1 {
+    font-size: 2.5vw;
+  }
+}
