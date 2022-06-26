@@ -1,12 +1,17 @@
-import Home from 'Home/Home';
 import React from 'react';
 
+import Game from 'pages/Game/Game';
+
 import "App.scss"
+import Navbar from 'pages/Navbar/Navbar';
 
 function App() {
   return (
     <div id="app">
-      <Home />
+      <Navbar />
+      <hr />
+      
+      <Game />
     </div>
   );
 }
