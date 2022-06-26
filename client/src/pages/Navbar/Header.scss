@@ -5,6 +5,8 @@
   justify-content: space-evenly;
 
   width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   border: 0;
   border-color: rgb(141, 141, 141);
@@ -18,5 +20,6 @@
 
   h1 {
     font-size: 2.5vw;
+    font-weight: 600;
   }
 }
