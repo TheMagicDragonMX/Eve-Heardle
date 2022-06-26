@@ -9,7 +9,6 @@ function App() {
   return (
     <div id="app">
       <Header />
-      {/* <hr /> */}
       
       <Game />
     </div>
