@@ -1,5 +1,7 @@
 import React from "react";
+
 import Attempt from "./Attempt/Attempt";
+import SearchBar from "./SearchBar/SearchBar";
 
 import "./Game.scss"
 
@@ -14,7 +16,7 @@ const Game = () => {
         <Attempt songName="Danger Close" isCorrect={ true } />
       </ul>
 
-
+      <SearchBar />
     </div>
   )
 }
