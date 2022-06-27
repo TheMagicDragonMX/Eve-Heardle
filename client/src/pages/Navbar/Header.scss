@@ -13,10 +13,22 @@
   border-style: solid;
   border-bottom-width: 1px;
 
-  button {
-    color: black;
-    width: 5rem;
+  span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
+  
+  // img {
+  //   width: 2rem;
+  // }
+
+  // button {
+  //   background: none;
+  //   border: none;
+  // }
 
   h1 {
     font-size: 2.5vw;

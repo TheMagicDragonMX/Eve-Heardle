@@ -1,7 +1,7 @@
 import React from "react";
 
-import crossImage from "Media/red-cross.png"
-import checkmark from "Media/checkmark.png"
+import crossImage from "media/red-cross.png"
+import checkmark from "media/checkmark.png"
 
 import "./Attempt.scss"
 
