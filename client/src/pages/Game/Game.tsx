@@ -17,6 +17,11 @@ const Game = () => {
       </ul>
 
       <SearchBar />
+
+      <span className="controls-container">
+        <button id="skip">SKIP</button>
+        <button id="submit">SUBMIT</button>
+      </span>
     </div>
   )
 }
