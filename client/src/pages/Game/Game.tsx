@@ -16,6 +16,8 @@ const Game = () => {
         <Attempt songName="Danger Close" isCorrect={ true } />
       </ul>
 
+      <audio src="https://youtu.be/H-u9O2eG8qQ" controls></audio>
+
       <SearchBar />
 
       <div id="controls-container">
